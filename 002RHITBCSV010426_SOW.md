@@ -1,27 +1,76 @@
-<h1>111RIMSTSVV010326 SOW </h1>
+<h1>111RIMSTSVV010326 24V TO 12V BUCK CONVERTER SINGLE LAYER SOW </h1>
 
-## 1. Project Overview
+## 24V to 12V, 1A Buck Converter PCB Development
 
-The objective of this project is to design and develop a DC-DC buck converter that efficiently steps down an input voltage of 24V DC to a regulated 12V DC output. The design will be implemented on a single-layer PCB and will include essential protection features to ensure safe and reliable operation.
+### 1. Client Input / Requirements
 
-## 2. Objectives
-- Design a high-efficiency buck converter with stable 12V output.
-- Develop a single-layer PCB layout.
-- Integrate input protection mechanisms such as fuse and reverse polarity protection.
+The client requires the development of a DC-DC Buck Converter PCB with the following specifications:
 
-## 3. Scope of Work
-### 3.1 Requirement Analysis
+* Input Voltage: 24V DC
+* Output Voltage: 12V DC
+* Output Current: 1A Continuous
+* Protection Features:
 
-- Input Voltage: 24V DC
-- Output Voltage: 12V DC
+  * Overload Protection
+  * Input Surge Protection
+  * Reverse Power / Reverse Polarity Protection
+* PCB mechanical dimensions must match the client's existing PCB.
+* Mounting hole locations and dimensions must be identical to the client's reference PCB.
+* The design shall be suitable for reliable operation under the specified electrical conditions.
 
-### 3.2 Protection Features
+### 2. Objective
 
-- Input Fuse Protection (overcurrent protection)
-- Reverse Polarity Protection using bridge rectifier 
+To design and develop a compact and reliable Buck Converter PCB that converts a 24V DC input to a regulated 12V DC output at up to 1A load current while incorporating protection mechanisms against overload, voltage surges, and reverse power connection. The PCB shall be mechanically compatible with the client's existing assembly.
 
-### 3.4 PCB Design
-- Single-layer PCB layout design
+### 3. Development Scope
 
-## 4. DELIVERABLES
-GERBER FILES
+The scope of work includes:
+
+#### Schematic Development
+* Requirement analysis and circuit architecture development.
+* Buck converter circuit design (24V DC to 12V DC, 1A).
+* Reverse polarity protection circuit design.
+* Surge protection circuit design.
+* Overload protection circuit design.
+* Output regulation and filtering circuit design.
+* Component selection and schematic optimization.
+* Design review and verification
+
+#### PCB Design
+
+* PCB layout development based on client-provided dimensions.
+* Matching of mounting hole positions and sizes with the existing PCB.
+* Proper power routing and thermal considerations.
+* Design rule verification and manufacturing checks.
+
+#### Validation
+
+* Electrical design review.
+* PCB design review.
+* Verification of output voltage regulation.
+* Verification of protection circuit implementation through design calculations and simulations where applicable.
+
+### 4. Working Principle
+
+The developed circuit will utilize a buck converter topology to efficiently step down the 24V DC input supply to a regulated 12V DC output.
+
+* The input protection stage will safeguard the circuit against reverse polarity connections and transient voltage surges.
+* The buck converter stage will perform high-efficiency voltage conversion from 24V to 12V.
+* The overload protection circuitry will limit or protect the converter during excessive load conditions.
+* Output filtering components will ensure stable and low-noise 12V output operation.
+* The PCB mechanical layout will be designed to fit directly into the client's existing mounting arrangement.
+
+### 5. Deliverables
+
+The following deliverables will be provided:
+
+* Schematic Design Files
+* PCB Layout Design Files
+* Manufacturing Gerber Files
+* Drill Files
+* Bill of Materials (BOM)
+* Pick and Place File (if applicable)
+* PDF Schematic
+* PCB Assembly Drawings
+* Design Documentation and Notes
+* Final Design Package for Manufacturing
